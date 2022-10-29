@@ -1,3 +1,124 @@
-#down{
+main .hautDePage .presentation p {
+    font-size: large;
+}
+
+main .introduction h2 {
     text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+main .introduction h2:hover{
+    color: rgb(98, 98, 200);
+}
+
+main .introduction p {
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1em;
+}
+
+main .hautDePage h2{
+    text-align: center;
+}
+
+main .lolgoodmeme {
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+main .lolgoodmeme .comment1{
+    width: fit-content;
+    animation: barrage1 3s infinite;
+}
+@keyframes barrage1 {
+    from{
+        transform: translate(250%);
+        color: red;
+    }
+    to{
+        transform: translate(15%);
+        color: blue;
+    }
+}
+
+main .lolgoodmeme .comment2{
+    width: fit-content;
+    animation: barrage2 4s infinite;
+}
+@keyframes barrage2 {
+    from{
+        transform: translate(250%);
+        color: blue;
+    }
+    to{
+        transform: translate(15%);
+        color: red;
+    }
+}
+
+main .lolgoodmeme .comment3{
+    width: fit-content;
+    animation: barrage3 5s infinite;
+}
+@keyframes barrage3 {
+    from{
+        transform: translate(170%);
+        color: blue;
+    }
+    to{
+        transform: translate(15%);
+        color: red;
+    }
+}
+
+@media all and (min-device-width: 480px){
+    main .hautDePage .introduction p{
+        background-color: rgb(62, 62, 62);
+        color: beige;
+        text-align: center;
+        align-self: center;
+    }
+    main .hautDePage .introduction p strong{
+        background-color: rgb(62, 62, 62);
+        color: beige;
+        text-align: center;
+        align-self: center;
+    }
+    main .lolgoodmeme{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    @keyframes barrage1 {
+        from{
+            transform: translate(0%);
+            color: red;
+        }
+        to{
+            transform: translate(-100%);
+            color: blue;
+        }
+    }
+    @keyframes barrage2 {
+        from{
+            transform: translate(25%);
+            color: blue;
+        }
+        to{
+            transform: translate(-75%);
+            color: red;
+        }
+    }
+    @keyframes barrage3 {
+        from{
+            transform: translate(50%);
+            color: blue;
+        }
+        to{
+            transform: translate(-50%);
+            color: red;
+        }
+    }
 }

@@ -1,14 +1,28 @@
 main .hautDePage .presentation img {
-    width: 60%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition:all 1s;
 }
-main .hautDePage .galerie {
+main .hautDePage .presentation img:hover{
+    transform: rotate(360deg);
+}
+main .lolgoodmeme img{
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+@media all and (min-device-width: 480px){
+    main .galerie .carousel{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media all and (min-device-width: 480px){
+    main .lolgoodmeme img{
+        width: 50%;
+        margin: auto;
+    }
 }
