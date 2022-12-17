@@ -28,50 +28,21 @@ main .lolgoodmeme {
     align-items: center;
 }
 
-main .lolgoodmeme .comment1{
+#comment{
     width: fit-content;
     animation: barrage1 3s infinite;
 }
 @keyframes barrage1 {
     from{
-        transform: translate(250%);
+        transform: translate(100%);
         color: red;
     }
     to{
-        transform: translate(15%);
+        transform: translate(0%);
         color: blue;
     }
 }
 
-main .lolgoodmeme .comment2{
-    width: fit-content;
-    animation: barrage2 4s infinite;
-}
-@keyframes barrage2 {
-    from{
-        transform: translate(250%);
-        color: blue;
-    }
-    to{
-        transform: translate(15%);
-        color: red;
-    }
-}
-
-main .lolgoodmeme .comment3{
-    width: fit-content;
-    animation: barrage3 5s infinite;
-}
-@keyframes barrage3 {
-    from{
-        transform: translate(170%);
-        color: blue;
-    }
-    to{
-        transform: translate(15%);
-        color: red;
-    }
-}
 
 @media all and (min-device-width: 480px){
     main .hautDePage .introduction p{

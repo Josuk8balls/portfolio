@@ -5,12 +5,18 @@ main .hautDePage .presentation img {
     margin-right: auto;
     transition:all 1s;
 }
-main .hautDePage .presentation img:hover{
+.turn{
     transform: rotate(360deg);
 }
 main .lolgoodmeme img{
     display: block;
     width: 100%;
+}
+
+.imageGalerie {
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
 @media all and (min-device-width: 480px){
