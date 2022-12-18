@@ -7,6 +7,7 @@ const comment = document.querySelector("#comment")
 
 doge.addEventListener('click', function(){
     doge.classList.add("turn")
+    alert("Ca roule?")
 })
 
 welcomingText.addEventListener('click', function() {

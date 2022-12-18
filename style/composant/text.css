@@ -28,6 +28,10 @@ main .lolgoodmeme {
     align-items: center;
 }
 
+#txtdirec {
+    text-align: center;
+}
+
 #comment{
     width: fit-content;
     animation: barrage1 3s infinite;
